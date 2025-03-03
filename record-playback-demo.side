@@ -1,0 +1,86 @@
+{
+  "id": "b1b94ec3-31c0-4779-a971-067cc71a810e",
+  "version": "2.0",
+  "name": "record-playback-demo",
+  "url": "https://ecommerce-playground.lambdatest.io/",
+  "tests": [{
+    "id": "94983c30-3270-41ef-bd2c-94ee653efb34",
+    "name": "first-test",
+    "commands": [{
+      "id": "86e84a40-572f-452c-a6ea-9a745102a673",
+      "comment": "",
+      "command": "open",
+      "target": "https://ecommerce-playground.lambdatest.io/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef7fd11d-93e0-4603-bea6-ecc168b4acc5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x778",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a653148-dec9-4308-91d7-dc1bd3dad169",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#entry_217822 .flex-fill > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23d71c14-4bcd-4ab3-99ec-236ffac513e9",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#entry_217822 .flex-fill > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "imac"
+    }, {
+      "id": "0a339984-914c-48df-832a-f144b5b05260",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#entry_217822 .flex-fill > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "736b3c14-f1c9-475b-90f1-08d88f880754",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mz-product-grid-image-41-212469 > .carousel-inner > .active > .lazy-load",
+      "targets": [
+        ["css=#mz-product-grid-image-41-212469 > .carousel-inner > .active > .lazy-load", "css:finder"],
+        ["xpath=//img[@alt='iMac']", "xpath:img"],
+        ["xpath=//a[@id='mz-product-grid-image-41-212469']/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c083db0f-8792-4d9f-b6cb-6149990f1a1b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://ecommerce-playground.lambdatest.io/"],
+  "plugins": []
+}
