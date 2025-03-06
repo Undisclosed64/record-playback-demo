@@ -39,7 +39,7 @@ selenium-side-runner "record-playback-demo.side" --server https://user-name:acce
 Once the test runs, you can check the execution details and logs in your [LambdaTest Automation Dashboard](https://automation.lambdatest.com).
 
 ## Need Help?
-If you have any questions, refer to [LambdaTest Documentation](https://www.lambdatest.com/support/docs/) or create an issue in this repository or just reach out me.
+If you encounter any issues or have questions, refer to [LambdaTest Documentation](https://www.lambdatest.com/support/docs/) or create an issue in this repository or feel free to reach out me.
 
 ---
 
