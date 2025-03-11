@@ -26,7 +26,7 @@ cd record-playback-demo
 ### 3. Get Your LambdaTest Credentials
 - Log in to [LambdaTest](https://www.lambdatest.com/).
 - Navigate to the [Automation Dashboard](https://automation.lambdatest.com/build).
-- Click on **Access Key** to copy your username and access key.
+- Click the **Access Key** icon at the bottom of the left sidebar menu to copy your username and access key.
 
 ### 4. Execute the `.side` File Using SIDE Runner
 In your terminal, navigate to the directory containing `record-playback-demo.side` file and run the following command, replacing `user-name` and `access-key` with your actual values:
